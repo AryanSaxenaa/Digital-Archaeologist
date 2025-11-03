@@ -1,0 +1,67 @@
+{
+  "website": "www.scrapethissite.com",
+  "scan_date": "November 03, 2025",
+  "pages_checked": 28,
+  "overall": {
+    "health_score": 95.7,
+    "grade": "A",
+    "status": "Excellent"
+  },
+  "performance": {
+    "grade": "A",
+    "average_load_time": "0.8 seconds",
+    "status": "Fast",
+    "slow_pages_count": 0
+  },
+  "seo": {
+    "grade": "F",
+    "issues_found": 7,
+    "status": "Poor"
+  },
+  "security": {
+    "grade": "F",
+    "vulnerabilities": 4,
+    "status": "Vulnerable"
+  },
+  "issues": {
+    "broken_pages": [
+      {
+        "page": "/pages/advanced/?gotcha=login",
+        "problem": "Server error (400)",
+        "fix": "Check if page exists or fix server issues"
+      },
+      {
+        "page": "/pages/advanced/?gotcha=csrf",
+        "problem": "Server error (400)",
+        "fix": "Check if page exists or fix server issues"
+      },
+      {
+        "page": "/pages/advanced/?gotcha=headers",
+        "problem": "Server error (400)",
+        "fix": "Check if page exists or fix server issues"
+      }
+    ],
+    "slow_pages": [],
+    "stale_content": [],
+    "seo_problems": [
+      "Some page titles are too long and may be cut off",
+      "4/4 images missing alt text",
+      "Pages missing descriptions (what users see in search results)",
+      "Pages missing main headings (confusing for readers)",
+      "3/3 images missing alt text",
+      "Some page descriptions are too long",
+      "Some pages don't have titles (important for search engines)"
+    ],
+    "security_warnings": [
+      "Website not enforcing secure connections",
+      "Website vulnerable to clickjacking attacks",
+      "Website missing content protection",
+      "Website missing content security policies"
+    ]
+  },
+  "action_items": [
+    "Fix 3 broken page(s) that visitors can't access",
+    "Improve SEO by fixing 7 search engine optimization issue(s)",
+    "Enhance security by addressing 4 vulnerability(ies)"
+  ]
+}
