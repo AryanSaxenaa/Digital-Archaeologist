@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-ULTIMATE DIGITAL ARCHAEOLOGIST
-Advanced Web Decay Forensics + Auto-Repair Engine
-
-Features: Deep link analysis, SEO health scoring, Auto-repair suggestions with Wayback Machine,
-Security vulnerability scanning, Content freshness analysis, Smart caching with TTL,
-Robots.txt compliance, JavaScript rendering, Multi-format reporting, Real-time progress tracking
-
-Author: Digital Archaeology Team | Enterprise-grade accuracy
-"""
 import asyncio, sys, json, os, re, yaml, hashlib, csv, httpx, aiofiles, logging
 from urllib.parse import urljoin, urlparse
 from datetime import datetime, timedelta
@@ -322,7 +311,7 @@ async def audit_website(start_url: str) -> Tuple[List[Dict[str, Any]], str, Dict
     
     return results, domain, robots
 
-# === USER-FRIENDLY REPORTING ===
+# === USER FRIENDLY REPORTING EVEN FOR NON TECH PEOPLE===
 def generate_user_friendly_report(results: List[Dict[str, Any]], domain: str) -> Dict[str, Any]:
     total_pages = len(results)
     if total_pages == 0: return {"error": "No pages could be analyzed"}
@@ -364,7 +353,7 @@ def generate_user_friendly_report(results: List[Dict[str, Any]], domain: str) ->
         for issue in security_issues:
             if issue not in all_security_issues: all_security_issues.append(issue)
     
-    # Convert technical issues to user-friendly language
+    # Convert technical issues to user friendly language for better understanding
     seo_friendly = {
         "Missing title tag": "Some pages don't have titles (important for search engines)",
         "Title too short": "Some page titles are too short to be effective",
